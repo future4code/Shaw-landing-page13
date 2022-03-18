@@ -1,0 +1,29 @@
+.falecomagente{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: flex-start;
+    
+}
+
+.ouvidoria{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: flex-start;
+}
+
+  .ouvidoria h2{
+      margin-bottom: 10px;
+  }
+  .falecomagente h2{
+      margin-bottom: 10px;
+  }
+
+footer{
+    
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
