@@ -38,6 +38,7 @@ nav {
     border-radius: 20px;
     box-shadow: 0 0 5px 0;
     position: fixed;
+    width: 70%;
 }
 header {
     margin: 0 auto;
@@ -81,10 +82,6 @@ header {
 
     .menu-flex li a {
         padding: 1rem 0;
-    }
-
-    li {
-        list-style-type: disc;
     }
 }
 
@@ -136,10 +133,12 @@ header {
     width: 40vw;
     height: auto;
     opacity: 0.6;
+
 }
 
 .img-section01:hover {
     opacity: 1;
+    transition: 500ms ease-in-out;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 700px) {
@@ -383,6 +382,14 @@ button:hover {
     display: flex;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    }
+
+    .img-footer img {
+        margin-top: 0.2rem;
+        align-items: center;
+        padding: 0.2rem;
+        width: 2rem;
+        height: 2rem;
     }
 
     @media only screen and (max-width: 800px) {
